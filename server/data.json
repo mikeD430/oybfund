@@ -1,31 +1,31 @@
 {
   "products": [
     {
-      "name": "Holiday Cottage",
-      "price": "493",
+      "name": "Holiday Cottage (2 nights for 5)",
+      "price": "75",
       "owner": "MDomingue",
       "last_bidder": "anne.domingue@gmail.com",
       "image": "cottageimagesmall.jpg"
     },
     {
-      "name": "Sheperd Huts",
-      "price": "103",
+      "name": "Sheperd Huts (3 nights for 2)",
+      "price": "95",
       "owner": "MDomingue",
-      "last_bidder": "wewerewrerewr",
+      "last_bidder": "domingue.louis@gmail.com",
       "image": "hideawaysmall.jpg"
     },
     {
-      "name": "Old School House",
-      "price": "99",
+      "name": "Old School House (2 nights for 2)",
+      "price": "50",
       "owner": "samson35",
-      "last_bidder": "MikeDomingue",
+      "last_bidder": "mikedomingue@economist.com",
       "image": "oldschoolhousesmall.jpg"
     },
     {
-      "name": "Hadrian Holiday",
-      "price": "79",
+      "name": "Hadrian Holiday (1 night for 2)",
+      "price": "26",
       "owner": "samson35",
-      "last_bidder": "wewerewrerewr",
+      "last_bidder": "anne.domingue@gmail.com",
       "image": "hadrianholiday.jpg"
     }
   ]

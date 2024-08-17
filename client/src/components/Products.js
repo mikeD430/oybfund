@@ -11,6 +11,7 @@ const Products = () => {
   useEffect(()=> {
       const fetchProducts = () => {
         var host = window.location.protocol + "//" + window.location.hostname + ":4000/api"
+	console.log("Host is : " + host)
         fetch(host).then(res => res.json()).then(data => {
           setProducts(data.products)   
           setLoading(false)
@@ -32,7 +33,10 @@ const Products = () => {
     return formatter.format(num);
   }
       
-  
+  function truncate(str, n){
+    return (str.length > n) ? str.slice(0, n-1) : str;
+  };
+
   return (
     <div>
       <div className='table__container'>
@@ -56,7 +60,7 @@ const Products = () => {
               
               <td>{product.name}</td>
               <td><b>{currencyFormat(`${product.price}`)}</b></td>
-              <td>{product.last_bidder || "None"}</td>
+              <td>{truncate(`${product.last_bidder}`,12) || "None"}</td>
               <td><EditButton product={product}/></td>
               
             </tr>

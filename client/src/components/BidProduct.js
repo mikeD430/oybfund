@@ -11,8 +11,12 @@ const BidProduct = ({socket}) => {
   const handleSubmit = (e) => {
     e.preventDefault()
     if(amount > Number(price)) {
-      socket.emit("bidProduct", {amount, last_bidder: localStorage.getItem("userName"), name })
+            console.log("In emit 001 ")
+	    socket.emit("bidProduct", {amount, last_bidder: localStorage.getItem("userName"), name })
+	    console.log("Now navigate")
       navigate("/products")
+	 //    const navto = window.location.protocol + "//" + window.location.hostname + ":3000/products"
+    //  window.open(navto, "_self")
     } else {
       setError(true)
     }

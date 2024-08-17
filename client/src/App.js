@@ -9,7 +9,9 @@ import './App.css';
 import socketIO from "socket.io-client"
 
 const host = window.location.protocol + "//" + window.location.hostname + ":4000"
-const socket = socketIO(host)
+console.log("App host is : " + host)
+const socket = socketIO(host);
+//const socket = socketIO()
 
 function App() {
   return (
