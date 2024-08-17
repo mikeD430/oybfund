@@ -2,13 +2,13 @@
   "products": [
     {
       "name": "Holiday Cottage (2 nights for 5)",
-      "price": "75",
+      "price": "76",
       "owner": "MDomingue",
-      "last_bidder": "anne.domingue@gmail.com",
+      "last_bidder": "mike.domingue@gmail.com",
       "image": "cottageimagesmall.jpg"
     },
     {
-      "name": "Sheperd Huts (3 nights for 2)",
+      "name": "Shepherd Huts (3 nights for 2)",
       "price": "95",
       "owner": "MDomingue",
       "last_bidder": "domingue.louis@gmail.com",
@@ -23,10 +23,17 @@
     },
     {
       "name": "Hadrian Holiday (1 night for 2)",
-      "price": "26",
+      "price": "30",
       "owner": "samson35",
       "last_bidder": "anne.domingue@gmail.com",
       "image": "hadrianholiday.jpg"
+    },
+    {
+      "name": "Sports massage Bodyworks Hexham",
+      "price": "25",
+      "owner": "samson35",
+      "last_bidder": "",
+      "image": "sportsmassagesmall.jpg"
     }
   ]
 }
