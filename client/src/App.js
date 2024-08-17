@@ -19,6 +19,7 @@ function App() {
   return (
     <div>
         <Nav header="Fundraiser for On Yer Bike Event" socket={socket}/>
+        <p>Auction ends 8.00 pm Fri 23 Aug 2024</p>
         <CarouselPage />
     <Routes>
         <Route path="/" element={<Home/>}/>

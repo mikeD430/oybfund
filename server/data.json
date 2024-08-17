@@ -1,21 +1,21 @@
 {
   "products": [
     {
-      "name": "Holiday Cottage (2 nights for 5)",
+      "name": "Holiday Cottage (2 nights for 5 people)",
       "price": "76",
       "owner": "MDomingue",
       "last_bidder": "mike.domingue@gmail.com",
       "image": "cottageimagesmall.jpg"
     },
     {
-      "name": "Shepherd Huts (3 nights for 2)",
+      "name": "Shepherd Huts (3 nights for 2 people)",
       "price": "95",
       "owner": "MDomingue",
       "last_bidder": "domingue.louis@gmail.com",
       "image": "hideawaysmall.jpg"
     },
     {
-      "name": "Old School House (2 nights for 2)",
+      "name": "Old School House (2 nights for 2 people)",
       "price": "50",
       "owner": "samson35",
       "last_bidder": "mikedomingue@economist.com",
