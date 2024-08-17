@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "name": "Holiday Cottage",
+      "price": "493",
+      "owner": "MDomingue",
+      "last_bidder": "anne.domingue@gmail.com",
+      "image": "cottageimagesmall.jpg"
+    },
+    {
+      "name": "Sheperd Huts",
+      "price": "103",
+      "owner": "MDomingue",
+      "last_bidder": "wewerewrerewr",
+      "image": "hideawaysmall.jpg"
+    },
+    {
+      "name": "Old School House",
+      "price": "99",
+      "owner": "samson35",
+      "last_bidder": "MikeDomingue",
+      "image": "oldschoolhousesmall.jpg"
+    },
+    {
+      "name": "Hadrian Holiday",
+      "price": "79",
+      "owner": "samson35",
+      "last_bidder": "wewerewrerewr",
+      "image": "hadrianholiday.jpg"
+    }
+  ]
+}
