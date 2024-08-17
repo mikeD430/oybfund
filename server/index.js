@@ -7,7 +7,8 @@ const fs = require("fs")
 const socketIO = require('socket.io')(http, {
   cors: {
     origin: ["http://localhost:3000",
-      "http://192.168.1.250:3000"]
+      "http://192.168.1.250:3000",
+      "http://13.40.96.69:3000"],
   },
 }); 
 
