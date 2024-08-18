@@ -1,3 +1,8 @@
 client/node_modules
 server/node_modules
 server/data.json
+<<<<<<< HEAD
+=======
+server/server.log
+client/client.log
+>>>>>>> 070227d9 (ok)
