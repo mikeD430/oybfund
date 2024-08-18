@@ -19,7 +19,14 @@ function App() {
   return (
     <div>
         <Nav header="Fundraiser for On Yer Bike Event" socket={socket}/>
-        <p>Auction ends 8.00 pm Fri 23 Aug 2024</p>
+        <h3>Auction ends 8.00 pm Fri 23 Aug 2024</h3>
+        <div>
+        Please note that you will not be notified when you place a bid. 
+          Winning bidders will be notified when the auction ends ,
+          under the discretion of the organizers
+        </div>
+       
+       
         <CarouselPage />
     <Routes>
         <Route path="/" element={<Home/>}/>

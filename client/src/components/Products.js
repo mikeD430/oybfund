@@ -55,6 +55,7 @@ const Products = ({socket}) => {
 
   return (
     <div>
+      
       <div className='table__container'>
        
       <table>
