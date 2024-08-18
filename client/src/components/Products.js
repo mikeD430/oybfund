@@ -2,16 +2,31 @@ import React, {useEffect, useState} from 'react'
 import EditButton from "./EditButton"
 //import { Link} from "react-router-dom"
 //import cottage from './image/cottageimagesmall.jpg'
+// window.location.reload()
 
 
-const Products = () => {
+const Products = ({socket}) => {
   const [products, setProducts] = useState(null)
   const [loading, setLoading] = useState(true)
+  
+  // const [notification, setNotification] = useState("")
+  
+  // Reload page when bid notify comes through
+  useEffect(()=> {
+    socket.on("bidProductResponse", () => {
+      setTimeout(() => {
+        window.location.reload()}, 2000)
+    })
+  }, [socket])
+
+  //
+  
 
   useEffect(()=> {
+      
       const fetchProducts = () => {
         var host = window.location.protocol + "//" + window.location.hostname + ":4000/api"
-	console.log("Host is : " + host)
+	     // console.log("Host is : " + host)
         fetch(host).then(res => res.json()).then(data => {
           setProducts(data.products)   
           setLoading(false)
@@ -32,7 +47,8 @@ const Products = () => {
       });
     return formatter.format(num);
   }
-      
+ 
+
   function truncate(str, n){
     return (str.length > n) ? str.slice(0, n-1) : str;
   };
